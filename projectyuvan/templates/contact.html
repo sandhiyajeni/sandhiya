@@ -1,0 +1,63 @@
+{% include 'header.html' %}
+{% block content %}
+<!-- Main section start -->
+<div class="row mt-5">
+                          
+    <div class="col-md-12">
+
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.1730600967076!2d72.97165817433671!3d19.18764214845999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b8d834c00235%3A0x89ff617b4a6cbf6f!2sItvedant%20Education%20Pvt.%20Ltd!5e0!3m2!1sen!2sin!4v1696932065505!5m2!1sen!2sin" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    
+    </div><!-- Map ends-->
+
+
+    <div class="col-md-6 mt-3">
+         <h3><i class="bi bi-building-fill text-danger"></i></h3>
+         <h5>Corporate Office</h5>
+         <hr>
+         <h6>Ekart Pvt Ltd</h6>
+             <p>
+                      Ishan Archade 1, <br>
+                      2nd floor, <br>
+                      Thane-West
+                </p>
+                <p><i class="bi bi-envelope-at-fill text-danger"></i> :ekart@gmail.com</p>
+                <p><i class="bi bi-telephone-inbound-fill text-danger"></i> :+919898989898</p>
+
+    </div>
+
+    <div class="col-md-6 mt-3">
+    
+      <h5 style="margin-top:42px;">Contact Form</h5>
+      <hr>
+      <form method="POST" action="">
+
+        <div class="mb-3">
+          <label for="Input1" class="form-label"><strong>Name:</strong></label>
+          <input type="text" name="cname" class="form-control" id="Input1" placeholder="Enter Name">
+        </div>
+        <div class="mb-3">
+          <label for="Input2" class="form-label"><strong>Email:</strong></label>
+          <input type="email" name="cmob" class="form-control" id="Input2" placeholder="e.g ekart@gmail.com">
+        </div>
+        <div class="mb-3">
+          <label for="Input3" class="form-label"><strong>Mobile:</strong></label>
+          <input type="number" name="cemail" class="form-control" id="Input3" placeholder="Enter Mobile ">
+        </div>
+        <div class="mb-3">
+          <label for="Textarea1" class="form-label"><strong>Feedback:</strong></label>
+          <textarea class="form-control" name="cfeedback" id="Textarea1" rows="3"></textarea>
+        </div>
+        <div class="mb-3">
+             <button class="btn btn-danger">Send</button>
+        </div>
+
+
+      </form>
+    </div>
+  
+
+
+</div>
+
+{% endblock %}
+<!---Main section End-->
